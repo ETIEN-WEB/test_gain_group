@@ -164,6 +164,8 @@
                         var tr = $("#tr"+data.id);
                         tr.find('span[id=status'+data.id+']').removeClass('bg-primary');
                         tr.find('span[id=status'+data.id+']').addClass('bg-success');
+                        tr.find('span[id=status'+data.id+']').text('');
+                        tr.find('span[id=status'+data.id+']').text('Terminer');
                         tr.find('span[id=badgeTermT'+data.id+']').hide();
 
 
